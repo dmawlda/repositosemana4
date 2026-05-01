@@ -1,5 +1,4 @@
 package p4;
-
 import java.util.Scanner;
 
 public class Main {
@@ -8,20 +7,24 @@ public class Main {
 
         Scanner sc = new Scanner(System.in);
         Calculadora calc = new Calculadora();
+
+        // Pedir datos
         System.out.print("Ingrese el primer número: ");
         int num1 = sc.nextInt();
+
         System.out.print("Ingrese el segundo número: ");
         int num2 = sc.nextInt();
+
+        // Operaciones
         int suma = calc.sumar(num1, num2);
         int multiplicacion = calc.multiplicar(num1, num2);
+        double division = calc.dividir(num1, num2);
+
+        // Resultados
         System.out.println("Suma: " + suma);
         System.out.println("Multiplicación: " + multiplicacion);
-<<<<<<< HEAD
         System.out.println("División: " + division);
-// hola mundo
-=======
 
->>>>>>> parent of eaeed42 (Se agrego la funcion division)
         sc.close();
     }
 }
