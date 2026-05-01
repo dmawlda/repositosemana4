@@ -24,7 +24,7 @@ public class Main {
         System.out.println("Suma: " + suma);
         System.out.println("Multiplicación: " + multiplicacion);
         System.out.println("División: " + division);
-
+// cambios realizadfos
         sc.close();
     }
 }
